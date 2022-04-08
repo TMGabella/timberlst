@@ -1,0 +1,258 @@
+body{
+	margin: 0;
+	
+	
+} 
+
+* *,
+*:before,
+*:after { 
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+
+p{
+	margin: 0 0 10px;
+}
+
+
+
+.header{
+	/* padding-top: 80px; */
+	height: 100vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.header__inner{
+	margin-left: 120px;
+	width: 525px;
+	height: 525px;
+	border: 10px solid #f4d4a5;
+	border-radius: 50%;
+	background-color: aliceblue;
+		text-align: center;
+		padding-top: 10px;
+	}
+	.name{
+	font-family: Lato;
+	font-size: 35px;
+	line-height: 1.2;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #bf4200;
+	margin-bottom: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+	.number{
+	
+	font-family: Roboto;
+	font-size: 35px;
+	line-height: 1.2;
+	font-weight: 400;
+	color: #000000;
+	
+	}
+	.header__title{
+		margin-top: 40px;
+		font-family: Roboto;
+		font-size: 50px;
+		line-height: 1.2;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #1fad26;
+		margin-bottom: 40px;
+		}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+.top-menu {
+  background: rgba(255,255,255,.5);
+  box-shadow: 3px 0 7px rgba(0,0,0,.3);
+  padding: 20px;
+}
+.top-menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar-logo {
+	display: inline-block;
+}
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.menu-main li {display: inline-block;}
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 61px;
+  padding-left: 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: #bf4200;
+  transition:.3s linear;
+}
+.menu-main a:before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  background: #F73E24;
+  position: absolute;
+  left: 50%;
+  transform: rotate(45deg) translateX(6.5px);
+  opacity: 0;
+  transition: .3s linear;
+}
+.menu-main a:hover:before {opacity: 1;}
+@media (max-width: 660px) {
+.menu-main {
+  float: none;
+  padding-top: 20px;
+}
+.top-menu {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+.menu-main a {padding: 0 10px;}
+.menu-main a:before {transform: rotate(45deg) translateX(-6px);}
+}
+@media (max-width: 600px) {
+
+	.header__inner{
+		margin-left: 30px;
+		width: 250px;
+		height: 250px;
+		border: 5px solid #f4d4a5;
+		border-radius: 50%;
+		background-color: aliceblue;
+			text-align: center;
+			padding-top: 7px;
+		}
+		.works {
+			padding-top: 70px;
+			margin-bottom: 70px;
+	  }
+		.name{
+			font-family: Lato;
+			font-size: 14px;
+			line-height: 1.2;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #bf4200;
+			margin-bottom: 10px;
+			padding-left: 5px;
+			padding-right: 5px;
+			}
+			.number{
+			
+			font-family: Roboto;
+			font-size: 14px;
+			line-height: 1.2;
+			font-weight: 400;
+			color: #000000;
+			
+			}
+			.header__title{
+			margin-top: 10px;
+			font-family: Roboto;
+			font-size: 18px;
+			line-height: 1.2;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #1fad26;
+			margin-bottom: 0px;
+         }
+
+
+.menu-main li {display: block;}
+}
+.works{
+	padding-top: 100px;
+	margin-bottom: 80px;
+}
+.container{
+	max-width: 1230px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+.works__title{
+	font-family: Roboto;
+font-size: 41px;
+line-height: 1.2;
+font-weight: 700;
+color: #d07a2d;
+margin-bottom: 40px;
+text-align: center;
+}
+
+
+.video__column{
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+.video{
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+/* .footer{
+	text-align: center;
+}
+.number{
+	font-family: Roboto;
+font-size: 50px;
+line-height: 1.2;
+font-weight: 700;
+color: #000000;
+margin-top: 100px;
+text-decoration: none;
+}
+.footer__email{
+margin-top: 60px;
+font-size: 30px;
+text-decoration: underline;
+color: #2f8bc5;
+margin-bottom: 50px;
+} */
+
+footer {
+	background:url(../img/for-demo/bg2.jpg) #F0F0F0 repeat;
+	padding:30px 0;
+	font-family: "Roboto",sans-serif;
+	text-align: center;
+}
+
+footer p {
+	font-size: 25px;
+}
+
+footer ul {
+	width: 50%;
+	max-width: 300px;
+	margin:0 auto;
+}
+
+footer ul li {
+	margin-top: 20px;
+}
+
+footer a {
+	text-decoration: none;
+	color:#5C5C5C;
+}
